@@ -1,26 +1,26 @@
-Freetronics ProtoShieldShort
-==============================
+Freetronics RGB LED Module
+==========================
 Copyright 2011 Freetronics Pty Ltd  
 Freetronics site:  <www.freetronics.com>  
 Freetronics email: <info@freetronics.com>  
 
-A special short prototyping shield for the Arduino, designed to be able
-to clear the RJ45 jack on an Ethernet Shield or Freetronics EtherTen.
-
-Note that this design is intended for simple fabrication and assembly,
-and does not have many of the features of other prototyping shields
-such as the "ProtoShield" (also available from Freetronics) such as
-general-purpose LEDs.
+This is an LED with a brain! Includes a bright RGB LED on the top of
+the board and a WS2801 constant-current, addressable, multi-channel
+LED driver on the back. This smart module can be daisy-chained, so you
+can connect a number of these together in a string and drive each of
+the module colours individually from your microcontroller.
 
 Features:
 
- * Pads for reset button connected to Arduino reset pin.
- * Parts overlay on both the top and the bottom so you can see what you
-   are connecting without having to keep turning the board over.
+ * 3.3 to 5V operation
+ * Constant current controller
+ * Requires just 2 data connections: clock and data
+ * Input and output headers on opposite sides of the board for easy
+   daisy-chaining
 
 More information is available at:
 
-  http://www.freetronics.com/protoshield-short
+  http://www.freetronics.com/rgbled
 
 The "docs" folder within this repository includes a handy copy of the
 schematic in PDF format and image(s) of the pcb.
@@ -32,7 +32,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> ProtoShieldShort.
+navigate to Projects -> eagle -> RGBLEDModule
 
 
 DISTRIBUTION
