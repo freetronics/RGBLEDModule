@@ -1,8 +1,8 @@
 Freetronics RGB LED Module
 ==========================
 Copyright 2011 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
 This is an LED with a brain! Includes a bright RGB LED on the top of
 the board and a WS2801 constant-current, addressable, multi-channel
